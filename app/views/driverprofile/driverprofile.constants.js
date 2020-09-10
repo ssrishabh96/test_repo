@@ -1,0 +1,8 @@
+export const initialState = {
+  isLoading: false,
+  error: null,
+};
+
+export const UPDATE_DRIVER_PROFILE_INIT = 'UPDATE_DRIVER_PROFILE_INIT';
+export const UPDATE_DRIVER_PROFILE_SUCCESS = 'UPDATE_DRIVER_PROFILE_SUCCESS';
+export const UPDATE_DRIVER_PROFILE_ERROR = 'UPDATE_DRIVER_PROFILE_ERROR';

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing MessageBox component Renders with error type 1`] = `
+<Styled(Component)
+  type="error"
+>
+  <Styled(Text)>
+    Error Message
+  </Styled(Text)>
+</Styled(Component)>
+`;
+
+exports[`Testing MessageBox component Renders with success type 1`] = `
+<Styled(Component)
+  type="success"
+>
+  <Styled(Text)>
+    Success Message
+  </Styled(Text)>
+</Styled(Component)>
+`;

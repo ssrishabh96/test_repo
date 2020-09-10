@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>320107071562-8j6p5me0uqj72e0kksudvbj2i0e7uguo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.320107071562-8j6p5me0uqj72e0kksudvbj2i0e7uguo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCB74aPiXcQKIv0Yeef4wdBEPoY-TzpWV4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>320107071562</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.copart.transporterent</string>
+	<key>PROJECT_ID</key>
+	<string>transporter-mobile-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>transporter-mobile-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:320107071562:ios:1100ff50ad471b1d</string>
+	<key>DATABASE_URL</key>
+	<string>https://transporter-mobile-app.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,7 @@
+
+// ignore meta data files
+app/views/pickupform/pickupsteps
+app/views/pickupform/deliverysteps
+
+// ignore files such as __mock__
+**/__*__.js

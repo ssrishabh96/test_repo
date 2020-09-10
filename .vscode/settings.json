@@ -1,0 +1,33 @@
+{
+  // Format file on save (uses prettier)
+  "editor.formatOnSave": true,
+  // Disable default JavaScript formatter for Prettier
+  "javascript.format.enable": false,
+  // Use 'prettier-eslint' instead of 'prettier'.
+  // Other settings will only be fallbacks in case they
+  // could not be inferred from eslint rules.
+  "prettier.eslintIntegration": true,
+  "prettier.printWidth": 100,
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.useTabs": true,
+  // use NPM packaged flow instead of the global installation
+  "flow.useNPMPackagedFlow": true,
+  // Disable JavaScript validation. (For Flow)
+  "javascript.validate.enable": false,
+  "editor.tabSize": 2,
+  // "workbench.iconTheme": "vscode-icons"
+  "path-intellisense.mappings": {
+    "assets": "${workspaceFolder}/app/assets",
+    "components": "${workspaceFolder}/app/components",
+    "config": "${workspaceFolder}/app/config",
+    "constants": "${workspaceFolder}/app/constants",
+    "lib": "${workspaceFolder}/app/lib",
+    "styles": "${workspaceFolder}/app/styles",
+    "types": "${workspaceFolder}/app/types",
+    "utils": "${workspaceFolder}/app/utils",
+    "views": "${workspaceFolder}/app/views",
+    "services": "${workspaceFolder}/app/services"
+  }
+}

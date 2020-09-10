@@ -1,0 +1,28 @@
+{
+  "presets": ["react-native", "flow"],
+  "env": {
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "assets": "./app/assets",
+          "types": "./app/types",
+          "constants": "./app/constants",
+          "components": "./app/components",
+          "views": "./app/views",
+          "styles": "./app/styles",
+          "config": "./app/config",
+          "lib": "./app/lib",
+          "utils": "./app/utils",
+          "services": "./app/services"
+        }
+      }
+    ]
+  ],
+  "retainLines": true
+}

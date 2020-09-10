@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "320107071562",
+    "firebase_url": "https://transporter-mobile-app.firebaseio.com",
+    "project_id": "transporter-mobile-app",
+    "storage_bucket": "transporter-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320107071562:android:46fc77f69ac1678a",
+        "android_client_info": {
+          "package_name": "com.copart.transporter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320107071562-bi5u1k3vpbjkco4r4j5ef746ojb0qchf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD-h-5eQxYAOBvxGqa3HAuwUFa_gc7MNU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

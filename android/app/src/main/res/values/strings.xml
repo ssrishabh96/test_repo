@@ -1,0 +1,4 @@
+<resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">hLmhpJDa5iqlBHZD33ue-uTv-H5Zcf981a59-2bba-4ee5-b054-f1e5fe6cb143</string>
+    <string name="app_name">Copart Transporter</string>
+</resources>

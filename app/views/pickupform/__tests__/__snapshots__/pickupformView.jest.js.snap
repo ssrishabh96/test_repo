@@ -1,0 +1,1409 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form View Renders 1`] = `
+<Component
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "borderBottomColor": "#DBE2E5",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "padding": 5,
+      }
+    }
+  >
+    <LotNotesButton
+      handlePressLotNotes={[Function]}
+    />
+    <Component
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <StepIndicator
+        currentPosition={0}
+        customStyles={
+          Object {
+            "currentStepIndicatorLabelFontSize": 15,
+            "currentStepIndicatorSize": 40,
+            "currentStepLabelColor": "#005abc",
+            "currentStepStrokeWidth": 3,
+            "labelColor": "#666666",
+            "labelSize": 12,
+            "separatorFinishedColor": "#005abc",
+            "separatorStrokeWidth": 3,
+            "separatorUnFinishedColor": "#54a5ff",
+            "stepIndicatorCurrentColor": "#ffffff",
+            "stepIndicatorFinishedColor": "#005abc",
+            "stepIndicatorLabelCurrentColor": "#000000",
+            "stepIndicatorLabelFinishedColor": "#ffffff",
+            "stepIndicatorLabelFontSize": 15,
+            "stepIndicatorLabelUnFinishedColor": "rgba(255,255,255,0.5)",
+            "stepIndicatorSize": 30,
+            "stepIndicatorUnFinishedColor": "#54a5ff",
+            "stepStrokeCurrentColor": "#005abc",
+          }
+        }
+        direction="horizontal"
+        stepCount={3}
+      />
+    </Component>
+  </Component>
+  <FormList
+    currentPickupLot={
+      Object {
+        "description": "Blue Honda",
+        "destination": Object {
+          "city": null,
+          "line_1": null,
+          "state": null,
+          "zip": null,
+        },
+        "dispatch_assignment_detail_id": 42,
+        "formType": "P",
+        "pickUpAddress": "123 plano TX 75075",
+        "source": Object {
+          "city": "plano",
+          "line_1": 123,
+          "state": "TX",
+          "zip": 75075,
+        },
+        "tripType": "P",
+        "vehicleDescCorrection": "Blue Honda",
+        "yardAddress": "",
+      }
+    }
+    data={
+      Array [
+        Object {
+          "data": Array [
+            Object {
+              "editable": false,
+              "field": "vehicleDescription",
+              "id": "1",
+              "key1": "description",
+              "label": "Vehicle Description",
+              "readable": true,
+              "required": false,
+              "section": "Vehicle Information",
+              "showWarning": false,
+              "type": "label",
+              "value": "",
+            },
+            Object {
+              "editable": false,
+              "field": "damageType",
+              "id": "2",
+              "key1": "lossType",
+              "label": "Damage Type",
+              "readable": true,
+              "required": false,
+              "section": "Vehicle Information",
+              "showWarning": false,
+              "type": "label",
+              "value": "",
+            },
+            Object {
+              "editable": false,
+              "field": "licenseNumber",
+              "id": "3",
+              "key1": "licenseNumber",
+              "label": "License Number",
+              "readable": true,
+              "required": false,
+              "section": "Vehicle Information",
+              "showWarning": false,
+              "type": "label",
+              "value": "",
+            },
+            Object {
+              "editable": false,
+              "field": "vin",
+              "id": "4",
+              "key1": "vin",
+              "label": "VIN",
+              "readable": true,
+              "required": false,
+              "section": "Vehicle Information",
+              "showWarning": false,
+              "type": "label",
+              "value": "",
+            },
+            Object {
+              "editable": false,
+              "field": "vehicleType",
+              "id": "5",
+              "key1": "vehicleType",
+              "label": "Vehicle Type",
+              "readable": true,
+              "required": false,
+              "section": "Vehicle Information",
+              "showWarning": false,
+              "type": "label",
+              "value": "",
+            },
+            Object {
+              "editable": false,
+              "field": "driverName",
+              "id": "6",
+              "key1": "responsible_party_name",
+              "label": "Driver Name (Tow Provider)",
+              "readable": true,
+              "required": false,
+              "section": "Vehicle Information",
+              "showWarning": false,
+              "type": "label",
+              "value": "",
+            },
+            Object {
+              "editable": false,
+              "field": "isTowable",
+              "id": "7",
+              "key1": "isTowable",
+              "label": "Is Tow-able",
+              "readable": true,
+              "required": false,
+              "section": "Vehicle Information",
+              "showWarning": false,
+              "type": "label",
+              "value": "",
+            },
+          ],
+          "key": "Vehicle Information",
+        },
+        Object {
+          "data": Array [
+            Object {
+              "editable": false,
+              "field": "pickUpAddress",
+              "id": "8",
+              "key1": "pickUpAddress",
+              "label": "Pickup Address",
+              "readable": true,
+              "required": false,
+              "section": "Location Information",
+              "showWarning": false,
+              "type": "label",
+              "value": "",
+            },
+            Object {
+              "editable": false,
+              "field": "yardAddress",
+              "id": "9",
+              "key1": "yardAddress",
+              "label": "Yard Address",
+              "readable": true,
+              "required": false,
+              "section": "Location Information",
+              "showWarning": false,
+              "type": "label",
+              "value": "",
+            },
+            Object {
+              "editable": false,
+              "field": "tripZone",
+              "id": "10",
+              "key1": "tripZone",
+              "label": "Trip Zone",
+              "readable": true,
+              "referenceDataKey": "other",
+              "required": false,
+              "section": "Location Information",
+              "showWarning": false,
+              "type": "label",
+              "value": "",
+            },
+            Object {
+              "editable": false,
+              "field": "advanceLimit",
+              "id": "11",
+              "key1": "advanceLimit",
+              "label": "Advance Limit",
+              "readable": true,
+              "required": false,
+              "section": "Location Information",
+              "showWarning": false,
+              "type": "label",
+              "value": "",
+            },
+            Object {
+              "editable": false,
+              "field": "vehicleWeight",
+              "id": "12",
+              "key1": "vehicle_weight",
+              "label": "Vehicle Weight",
+              "readable": true,
+              "required": false,
+              "section": "Location Information",
+              "showWarning": false,
+              "type": "label",
+              "value": "",
+            },
+          ],
+          "key": "Location Information",
+        },
+        Object {
+          "data": Array [
+            Object {
+              "editable": true,
+              "field": "puTitle",
+              "id": "13",
+              "key1": "puTitle",
+              "label": "Pickup Title",
+              "optionKeys": "Yes|No",
+              "readable": true,
+              "required": true,
+              "section": "Documents Collected",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "lienRelease",
+              "id": "14",
+              "key1": "lienRelease",
+              "label": "Get Lien Release",
+              "optionKeys": "Yes|No",
+              "readable": true,
+              "required": true,
+              "section": "Documents Collected",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "poa",
+              "id": "15",
+              "key1": "poa",
+              "label": "Get P.O.A",
+              "optionKeys": "Yes|No",
+              "readable": true,
+              "required": true,
+              "section": "Documents Collected",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+            Object {
+              "autoCapitalize": "sentences",
+              "editable": true,
+              "field": "otherDocuments",
+              "id": "16",
+              "key1": "otherDocuments",
+              "label": "Other",
+              "readable": true,
+              "required": false,
+              "section": "Documents Collected",
+              "showWarning": false,
+              "type": "text",
+              "validations": Object {
+                "maxLength": 20,
+              },
+              "value": "",
+            },
+          ],
+          "key": "Documents Collected",
+        },
+        Object {
+          "data": Array [
+            Object {
+              "autoCapitalize": "sentences",
+              "editable": true,
+              "field": "vehicleDescCorrection",
+              "id": "17",
+              "key1": "vehicleDescCorrection",
+              "label": "Vehicle Description Correction",
+              "readable": true,
+              "required": false,
+              "section": "Vehicle Details",
+              "showWarning": false,
+              "type": "text",
+              "validations": Object {
+                "maxLength": 30,
+              },
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "towType",
+              "id": "18",
+              "key1": "towType",
+              "label": "Tow Type ?",
+              "optionKeys": "Standard|Medium|Heavy",
+              "optionValues": "S|M|H",
+              "readable": true,
+              "required": false,
+              "section": "Vehicle Details",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "keys ?",
+              "id": "19",
+              "key1": "keys",
+              "label": "Keys ?",
+              "optionKeys": "Yes|No",
+              "readable": true,
+              "required": true,
+              "section": "Vehicle Details",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "keyFob",
+              "id": "20",
+              "key1": "keyFob",
+              "label": "Keys Fob ?",
+              "optionKeys": "Yes|No",
+              "readable": true,
+              "required": true,
+              "section": "Vehicle Details",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "vehicleColor",
+              "id": "21",
+              "key1": "colors",
+              "label": "Vehicle Color",
+              "multiselect": false,
+              "readable": true,
+              "referenceDataKey": "colors",
+              "required": true,
+              "section": "Vehicle Details",
+              "showWarning": false,
+              "type": "accessory",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "primaryDamage",
+              "id": "22",
+              "key1": "primaryDamage",
+              "label": "Primary Damage",
+              "multiselect": false,
+              "readable": true,
+              "referenceDataKey": "damageCodes",
+              "required": true,
+              "section": "Vehicle Details",
+              "showWarning": false,
+              "type": "accessory",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "secondaryDamage",
+              "id": "23",
+              "key1": "secondaryDamage",
+              "label": "Secondary Damage",
+              "multiselect": false,
+              "readable": true,
+              "referenceDataKey": "damageCodes",
+              "required": true,
+              "section": "Vehicle Details",
+              "showWarning": false,
+              "type": "accessory",
+              "value": "",
+            },
+            Object {
+              "autoCapitalize": "characters",
+              "editable": true,
+              "field": "licensePlate",
+              "id": "24",
+              "key1": "licensePlate",
+              "label": "License Plate",
+              "readable": true,
+              "required": true,
+              "section": "Vehicle Details",
+              "showWarning": false,
+              "type": "text",
+              "validations": Object {
+                "maxLength": 10,
+              },
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "state",
+              "id": "25",
+              "key1": "state",
+              "label": "State",
+              "multiselect": false,
+              "readable": true,
+              "referenceDataKey": "stateCodes",
+              "required": true,
+              "section": "Vehicle Details",
+              "showWarning": false,
+              "type": "accessory",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "numberOfPlates",
+              "id": "26",
+              "key1": "numberOfPlates",
+              "label": "Number of Plates",
+              "multiselect": false,
+              "readable": true,
+              "referenceDataKey": "numberOfPlates",
+              "required": true,
+              "section": "Vehicle Details",
+              "showWarning": false,
+              "type": "accessory",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "vinPlate",
+              "id": "27",
+              "key1": "vinPlate",
+              "label": "VIN Plate ?",
+              "optionKeys": "Yes|No",
+              "readable": true,
+              "required": true,
+              "section": "Vehicle Details",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "shopVIN",
+              "id": "28",
+              "key1": "shopVIN",
+              "label": "Shop VIN",
+              "readable": true,
+              "required": false,
+              "section": "Vehicle Details",
+              "showWarning": false,
+              "type": "vin",
+              "validations": Object {
+                "maxLength": 17,
+              },
+              "value": "",
+            },
+          ],
+          "key": "Vehicle Details",
+        },
+        Object {
+          "data": Array [
+            Object {
+              "editable": true,
+              "field": "mechanical",
+              "id": "29",
+              "key1": "mechanical",
+              "label": "Mechanical",
+              "multiselect": true,
+              "readable": true,
+              "referenceDataKey": "mechanicalPartCodes",
+              "required": false,
+              "section": "Vehicle Missing Parts",
+              "showWarning": false,
+              "type": "accessory",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "interior",
+              "id": "30",
+              "key1": "interior",
+              "label": "Interior",
+              "multiselect": true,
+              "readable": true,
+              "referenceDataKey": "interiorPartCodes",
+              "required": false,
+              "section": "Vehicle Missing Parts",
+              "showWarning": false,
+              "type": "accessory",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "sheetMetal",
+              "id": "31",
+              "key1": "sheetMetal",
+              "label": "Sheet Metal",
+              "multiselect": true,
+              "readable": true,
+              "referenceDataKey": "sheetMetalPartCodes",
+              "required": false,
+              "section": "Vehicle Missing Parts",
+              "showWarning": false,
+              "type": "accessory",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "exterior",
+              "id": "32",
+              "key1": "exterior",
+              "label": "Exterior",
+              "multiselect": true,
+              "readable": true,
+              "referenceDataKey": "exteriorPartCodes",
+              "required": false,
+              "section": "Vehicle Missing Parts",
+              "showWarning": false,
+              "type": "accessory",
+              "value": "",
+            },
+          ],
+          "key": "Vehicle Missing Parts",
+        },
+        Object {
+          "data": Array [
+            Object {
+              "editable": true,
+              "field": "driverSideAir",
+              "id": "33",
+              "key1": "driverSideAir",
+              "label": "Driver Side Airbag",
+              "optionKeys": "Damaged|Missing",
+              "readable": true,
+              "required": false,
+              "section": "Airbag Details",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "passSideAir",
+              "id": "34",
+              "key1": "passSideAir",
+              "label": "Passenger Side Airbag",
+              "optionKeys": "Damaged|Missing",
+              "readable": true,
+              "required": false,
+              "section": "Airbag Details",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "leftSideAir",
+              "id": "35",
+              "key1": "leftSideAir",
+              "label": "Left Side Airbag",
+              "optionKeys": "Damaged|Missing",
+              "readable": true,
+              "required": false,
+              "section": "Airbag Details",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "rightSideAir",
+              "id": "36",
+              "key1": "rightSideAir",
+              "label": "Right Side Airbag",
+              "optionKeys": "Damaged|Missing",
+              "readable": true,
+              "required": false,
+              "section": "Airbag Details",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+          ],
+          "key": "Airbag Details",
+        },
+        Object {
+          "data": Array [
+            Object {
+              "editable": true,
+              "field": "numberOfWheels",
+              "id": "37",
+              "key1": "numberOfWheels",
+              "label": "Number of Wheels",
+              "multiselect": false,
+              "readable": true,
+              "referenceDataKey": "numberOfWheels",
+              "required": true,
+              "section": "Wheel Details",
+              "showWarning": false,
+              "type": "accessory",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "wheelType",
+              "id": "38",
+              "key1": "wheelType",
+              "label": "Wheel Type",
+              "optionKeys": "Alloy|Steel",
+              "readable": true,
+              "required": true,
+              "section": "Wheel Details",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "wheelModel",
+              "id": "39",
+              "key1": "wheelModel",
+              "label": "Wheel Model",
+              "optionKeys": "Standard|Custom",
+              "readable": true,
+              "required": true,
+              "section": "Wheel Details",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+            Object {
+              "editable": true,
+              "field": "evidenceOfTeardown",
+              "id": "40",
+              "key1": "evidenceOfTeardown",
+              "label": "Evidence of Teardown",
+              "optionKeys": "Yes|No",
+              "readable": true,
+              "required": true,
+              "section": "Wheel Details",
+              "showWarning": false,
+              "type": "buttons",
+              "value": "",
+            },
+          ],
+          "key": "Wheel Details",
+        },
+        Object {
+          "data": Array [
+            Object {
+              "documentType": "DISPATCH_IMAGE",
+              "editable": true,
+              "field": "vehicleImages",
+              "id": "41",
+              "key1": "vehicleImages",
+              "label": "Vehicle Image",
+              "readable": true,
+              "required": true,
+              "section": "Vehicle Image",
+              "showWarning": false,
+              "type": "image",
+              "value": "",
+            },
+          ],
+          "key": "Vehicle Image",
+        },
+      ]
+    }
+    handleOnSelect={[Function]}
+    handlePreviewClick={[Function]}
+    onRef={[Function]}
+    openCamera={[Function]}
+    openPicker={[Function]}
+    referenceCodes={
+      Object {
+        "colors": Array [
+          Object {
+            "code": "BEIGE",
+            "description": "BEIGE",
+            "hexcode": "#F5F5DC",
+          },
+          Object {
+            "code": "BLACK",
+            "description": "BLACK",
+            "hexcode": "#000000",
+          },
+          Object {
+            "code": "BLUE",
+            "description": "BLUE",
+            "hexcode": "#0000FF",
+          },
+          Object {
+            "code": "BROWN",
+            "description": "BROWN",
+            "hexcode": "#A52A2A",
+          },
+          Object {
+            "code": "BURG",
+            "description": "BURGUNDY",
+            "hexcode": "#800020",
+          },
+          Object {
+            "code": "BURN",
+            "description": "BURN",
+            "hexcode": "#E25822",
+          },
+          Object {
+            "code": "CHARC",
+            "description": "CHARCOAL",
+            "hexcode": "#36454f",
+          },
+          Object {
+            "code": "CREAM",
+            "description": "CREAM",
+            "hexcode": "#fffdd0",
+          },
+          Object {
+            "code": "GOLD",
+            "description": "GOLD",
+            "hexcode": "#FFD700",
+          },
+          Object {
+            "code": "GRAY",
+            "description": "GRAY",
+            "hexcode": "#808080",
+          },
+          Object {
+            "code": "GREEN",
+            "description": "GREEN",
+            "hexcode": "#008000",
+          },
+          Object {
+            "code": "MROON",
+            "description": "MAROON",
+            "hexcode": "#800000",
+          },
+          Object {
+            "code": "ORANG",
+            "description": "ORANGE",
+            "hexcode": "#FFA500",
+          },
+          Object {
+            "code": "PINK",
+            "description": "PINK",
+            "hexcode": "#FFC0CB",
+          },
+          Object {
+            "code": "PURPL",
+            "description": "PURPLE",
+            "hexcode": "#800080",
+          },
+          Object {
+            "code": "RED",
+            "description": "RED",
+            "hexcode": "#FF0000",
+          },
+          Object {
+            "code": "SILVR",
+            "description": "SILVER",
+            "hexcode": "#C0C0C0",
+          },
+          Object {
+            "code": "TAN",
+            "description": "TAN",
+            "hexcode": "#D2B48C",
+          },
+          Object {
+            "code": "TEAL",
+            "description": "TEAL",
+            "hexcode": "#008080",
+          },
+          Object {
+            "code": "TURQ",
+            "description": "TURQUOISE",
+            "hexcode": "#40E0D0",
+          },
+          Object {
+            "code": "2TONE",
+            "description": "TWO TONE",
+            "hexcode": "#FFFFFF",
+          },
+          Object {
+            "code": "WHITE",
+            "description": "WHITE",
+            "hexcode": "#FFFFFF",
+          },
+          Object {
+            "code": "YELLO",
+            "description": "YELLOW",
+            "hexcode": "#FFFF00",
+          },
+        ],
+        "damageCodes": Array [
+          Object {
+            "code": "DU",
+            "description": "DRIVETRAIN UNK/UNABLE TO VERIF",
+            "order": "23500",
+          },
+          Object {
+            "code": "NK",
+            "description": "NO KEYS",
+            "order": "23000",
+          },
+          Object {
+            "code": "FR",
+            "description": "FRONT END",
+            "order": "9000",
+          },
+          Object {
+            "code": "SD",
+            "description": "SIDE",
+            "order": "8000",
+          },
+          Object {
+            "code": "RR",
+            "description": "REAR END",
+            "order": "7000",
+          },
+          Object {
+            "code": "AO",
+            "description": "ALL OVER",
+            "order": "6000",
+          },
+          Object {
+            "code": "NW",
+            "description": "NORMAL WEAR",
+            "order": "5000",
+          },
+          Object {
+            "code": "RO",
+            "description": "ROLLOVER",
+            "order": "4000",
+          },
+          Object {
+            "code": "MC",
+            "description": "MECHANICAL",
+            "order": "3000",
+          },
+          Object {
+            "code": "WA",
+            "description": "WATER/FLOOD",
+            "order": "2000",
+          },
+          Object {
+            "code": "BN",
+            "description": "BURN",
+            "order": "1000",
+          },
+          Object {
+            "code": "MN",
+            "description": "MINOR DENT/SCRATCHES",
+            "order": "900",
+          },
+          Object {
+            "code": "BC",
+            "description": "BIOHAZARD/CHEMICAL",
+            "order": "0",
+          },
+          Object {
+            "code": "BE",
+            "description": "BURN - ENGINE",
+            "order": "0",
+          },
+          Object {
+            "code": "BI",
+            "description": "BURN - INTERIOR",
+            "order": "0",
+          },
+          Object {
+            "code": "DH",
+            "description": "DAMAGE HISTORY",
+            "order": "0",
+          },
+          Object {
+            "code": "FD",
+            "description": "FRAME DAMAGE",
+            "order": "0",
+          },
+          Object {
+            "code": "HL",
+            "description": "HAIL",
+            "order": "0",
+          },
+          Object {
+            "code": "VI",
+            "description": "MISSING/ALTERED VIN",
+            "order": "0",
+          },
+          Object {
+            "code": "PR",
+            "description": "PARTIAL REPAIR",
+            "order": "0",
+          },
+          Object {
+            "code": "RJ",
+            "description": "REJECTED REPAIR",
+            "order": "0",
+          },
+          Object {
+            "code": "VP",
+            "description": "REPLACED VIN",
+            "order": "0",
+          },
+          Object {
+            "code": "ST",
+            "description": "STRIPPED",
+            "order": "0",
+          },
+          Object {
+            "code": "TP",
+            "description": "TOP/ROOF",
+            "order": "0",
+          },
+          Object {
+            "code": "UN",
+            "description": "UNDERCARRIAGE",
+            "order": "0",
+          },
+          Object {
+            "code": "VN",
+            "description": "VANDALISM",
+            "order": "0",
+          },
+        ],
+        "exteriorPartCodes": Array [
+          Object {
+            "code": "Bumper Cover",
+            "description": "Bumper Cover",
+          },
+          Object {
+            "code": "Headlamps",
+            "description": "Headlamps",
+          },
+          Object {
+            "code": "Taillamps",
+            "description": "Taillamps",
+          },
+          Object {
+            "code": "Tailgate",
+            "description": "Tailgate",
+          },
+        ],
+        "interiorPartCodes": Array [
+          Object {
+            "code": "Airbags DMG/Missing",
+            "description": "Airbags DMG/Missing",
+          },
+          Object {
+            "code": "CD Changer",
+            "description": "CD Changer",
+          },
+          Object {
+            "code": "DVD Player",
+            "description": "DVD Player",
+          },
+          Object {
+            "code": "Navigation",
+            "description": "Navigation",
+          },
+          Object {
+            "code": "Radio/Faceplate",
+            "description": "Radio / Faceplate",
+          },
+          Object {
+            "code": "Seat(Incl 3rd Row)",
+            "description": "Seat (Incl 3rd Row)",
+          },
+          Object {
+            "code": "Trim",
+            "description": "Trim",
+          },
+        ],
+        "mechanicalPartCodes": Array [
+          Object {
+            "code": "Battery",
+            "description": "Battery",
+          },
+          Object {
+            "code": "CAT Conv",
+            "description": "CAT Conv",
+          },
+          Object {
+            "code": "Engine",
+            "description": "Engine",
+          },
+          Object {
+            "code": "Radiator",
+            "description": "Radiator",
+          },
+          Object {
+            "code": "Transmission",
+            "description": "Transmission",
+          },
+        ],
+        "numberOfPlates": Array [
+          Object {
+            "code": "0",
+            "description": "0",
+          },
+          Object {
+            "code": "1",
+            "description": "1",
+          },
+          Object {
+            "code": "2",
+            "description": "2",
+          },
+          Object {
+            "code": "3",
+            "description": "3",
+          },
+          Object {
+            "code": "N/A",
+            "description": "N/A",
+          },
+        ],
+        "numberOfWheels": Array [
+          Object {
+            "code": "0",
+            "description": "0",
+          },
+          Object {
+            "code": "1",
+            "description": "1",
+          },
+          Object {
+            "code": "2",
+            "description": "2",
+          },
+          Object {
+            "code": "3",
+            "description": "3",
+          },
+          Object {
+            "code": "4",
+            "description": "4",
+          },
+          Object {
+            "code": "N/A",
+            "description": "N/A",
+          },
+        ],
+        "paymentType": Array [
+          Object {
+            "code": "Cash",
+            "description": "Cash",
+          },
+          Object {
+            "code": "Credit Card",
+            "description": "Credit Card",
+          },
+          Object {
+            "code": "Check",
+            "description": "Check",
+          },
+        ],
+        "sheetMetalPartCodes": Array [
+          Object {
+            "code": "Fenders",
+            "description": "Fenders",
+          },
+          Object {
+            "code": "Doors",
+            "description": "Doors",
+          },
+          Object {
+            "code": "Deck/Trunk Lid",
+            "description": "Deck/Trunk Lid",
+          },
+          Object {
+            "code": "Hood",
+            "description": "Hood",
+          },
+        ],
+        "stateCodes": Array [
+          Object {
+            "code": "AK",
+            "description": "ALASKA",
+          },
+          Object {
+            "code": "AL",
+            "description": "ALABAMA",
+          },
+          Object {
+            "code": "AR",
+            "description": "ARKANSAS",
+          },
+          Object {
+            "code": "AZ",
+            "description": "ARIZONA",
+          },
+          Object {
+            "code": "CA",
+            "description": "CALIFORNIA",
+          },
+          Object {
+            "code": "CO",
+            "description": "COLORADO",
+          },
+          Object {
+            "code": "CT",
+            "description": "CONNECTICUT",
+          },
+          Object {
+            "code": "DC",
+            "description": "DISTRICT OF COLUMBIA",
+          },
+          Object {
+            "code": "DE",
+            "description": "DELAWARE",
+          },
+          Object {
+            "code": "FL",
+            "description": "FLORIDA",
+          },
+          Object {
+            "code": "GA",
+            "description": "GEORGIA",
+          },
+          Object {
+            "code": "GU",
+            "description": "GUAM",
+          },
+          Object {
+            "code": "HI",
+            "description": "HAWAII",
+          },
+          Object {
+            "code": "IA",
+            "description": "IOWA",
+          },
+          Object {
+            "code": "ID",
+            "description": "IDAHO",
+          },
+          Object {
+            "code": "IL",
+            "description": "ILLINOIS",
+          },
+          Object {
+            "code": "IN",
+            "description": "INDIANA",
+          },
+          Object {
+            "code": "KS",
+            "description": "KANSAS",
+          },
+          Object {
+            "code": "KY",
+            "description": "KENTUCKY",
+          },
+          Object {
+            "code": "LA",
+            "description": "LOUISIANA",
+          },
+          Object {
+            "code": "MA",
+            "description": "MASSACHUSETTS",
+          },
+          Object {
+            "code": "MD",
+            "description": "MARYLAND",
+          },
+          Object {
+            "code": "ME",
+            "description": "MAINE",
+          },
+          Object {
+            "code": "MI",
+            "description": "MICHIGAN",
+          },
+          Object {
+            "code": "MN",
+            "description": "MINNESOTA",
+          },
+          Object {
+            "code": "MO",
+            "description": "MISSOURI",
+          },
+          Object {
+            "code": "MS",
+            "description": "MISSISSIPPI",
+          },
+          Object {
+            "code": "MT",
+            "description": "MONTANA",
+          },
+          Object {
+            "code": "NC",
+            "description": "NORTH CAROLINA",
+          },
+          Object {
+            "code": "ND",
+            "description": "NORTH DAKOTA",
+          },
+          Object {
+            "code": "NE",
+            "description": "NEBRASKA",
+          },
+          Object {
+            "code": "NH",
+            "description": "NEW HAMPSHIRE",
+          },
+          Object {
+            "code": "NJ",
+            "description": "NEW JERSEY",
+          },
+          Object {
+            "code": "NM",
+            "description": "NEW MEXICO",
+          },
+          Object {
+            "code": "NV",
+            "description": "NEVADA",
+          },
+          Object {
+            "code": "NY",
+            "description": "NEW YORK",
+          },
+          Object {
+            "code": "OH",
+            "description": "OHIO",
+          },
+          Object {
+            "code": "OK",
+            "description": "OKLAHOMA",
+          },
+          Object {
+            "code": "OR",
+            "description": "OREGON",
+          },
+          Object {
+            "code": "PA",
+            "description": "PENNSYLVANIA",
+          },
+          Object {
+            "code": "PR",
+            "description": "PUERTO RICO",
+          },
+          Object {
+            "code": "RI",
+            "description": "RHODE ISLAND",
+          },
+          Object {
+            "code": "SC",
+            "description": "SOUTH CAROLINA",
+          },
+          Object {
+            "code": "SD",
+            "description": "SOUTH DAKOTA",
+          },
+          Object {
+            "code": "TN",
+            "description": "TENNESSEE",
+          },
+          Object {
+            "code": "TX",
+            "description": "TEXAS",
+          },
+          Object {
+            "code": "UT",
+            "description": "UTAH",
+          },
+          Object {
+            "code": "VA",
+            "description": "VIRGINIA",
+          },
+          Object {
+            "code": "VI",
+            "description": "VIRGIN ISLANDS",
+          },
+          Object {
+            "code": "VT",
+            "description": "VERMONT",
+          },
+          Object {
+            "code": "WA",
+            "description": "WASHINGTON",
+          },
+          Object {
+            "code": "WI",
+            "description": "WISCONSIN",
+          },
+          Object {
+            "code": "WV",
+            "description": "WEST VIRGINIA",
+          },
+          Object {
+            "code": "WY",
+            "description": "WYOMING",
+          },
+        ],
+      }
+    }
+    showScannerView={[Function]}
+    showSignatureView={[Function]}
+    showWarningNotification={[Function]}
+    updatePickupLotData={[Function]}
+  />
+  <Component
+    style={
+      Object {
+        "backgroundColor": "#005abc",
+        "flexDirection": "row",
+        "height": 45,
+        "justifyContent": "space-between",
+        "left": 0,
+        "right": 0,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "justifyContent": "center",
+          "paddingHorizontal": 30,
+        }
+      }
+    />
+    <TouchableHighlight
+      activeOpacity={0.85}
+      delayPressOut={100}
+      onPress={[Function]}
+      style={
+        Object {
+          "justifyContent": "center",
+          "paddingHorizontal": 30,
+        }
+      }
+      underlayColor="transparent"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "alignItems": "center",
+            "bottom": 2,
+            "color": "white",
+            "fontSize": 18,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Next
+      </Text>
+    </TouchableHighlight>
+  </Component>
+</Component>
+`;
+
+exports[`loading renders 1`] = `
+<FullScreenLoader
+  isLoading={true}
+/>
+`;
+
+exports[`submitting renders 1`] = `
+<Component
+  status="test submitting status"
+/>
+`;

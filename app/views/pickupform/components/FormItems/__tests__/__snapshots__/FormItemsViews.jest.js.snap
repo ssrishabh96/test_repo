@@ -1,0 +1,1470 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the accessory item if the description is over 30 characters, it cuts it off at 30 and appends an elipses 1`] = `
+<TouchableHighlight
+  activeOpacity={0.85}
+  delayPressOut={100}
+  onPress={[Function]}
+  underlayColor="#EBEBEB"
+>
+  <Component
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "#EBEBEB",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 18,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "minHeight": 45,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flex": 1,
+            "flexDirection": "row",
+            "paddingTop": 2,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#5B6068",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Label
+          <Required />
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#3266ba",
+                "fontSize": 15,
+                "fontWeight": "bold",
+              },
+              Object {
+                "paddingRight": 10,
+                "paddingTop": 2,
+                "textAlign": "right",
+              },
+            ]
+          }
+        >
+          Battery, Engine, Radiator, Tra...
+        </Text>
+      </Component>
+    </Component>
+    <Icon
+      allowFontScaling={false}
+      color="#5B6068"
+      name="angle-right"
+      size={22}
+      style={
+        Object {
+          "paddingRight": 5,
+        }
+      }
+    />
+  </Component>
+</TouchableHighlight>
+`;
+
+exports[`the accessory item it renders empty value 1`] = `
+<TouchableHighlight
+  activeOpacity={0.85}
+  delayPressOut={100}
+  onPress={[Function]}
+  underlayColor="#EBEBEB"
+>
+  <Component
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "#EBEBEB",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 18,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "minHeight": 45,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flex": 1,
+            "flexDirection": "row",
+            "paddingTop": 2,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#5B6068",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Label
+          <Required />
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#3266ba",
+                "fontSize": 15,
+                "fontWeight": "bold",
+              },
+              Object {
+                "paddingRight": 10,
+                "paddingTop": 2,
+                "textAlign": "right",
+              },
+            ]
+          }
+        >
+          Please select
+        </Text>
+      </Component>
+    </Component>
+    <Icon
+      allowFontScaling={false}
+      color="#5B6068"
+      name="angle-right"
+      size={22}
+      style={
+        Object {
+          "paddingRight": 5,
+        }
+      }
+    />
+  </Component>
+</TouchableHighlight>
+`;
+
+exports[`the accessory item it renders with color 1`] = `
+<TouchableHighlight
+  activeOpacity={0.85}
+  delayPressOut={100}
+  onPress={[Function]}
+  underlayColor="#EBEBEB"
+>
+  <Component
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "#EBEBEB",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 18,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "minHeight": 45,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flex": 1,
+            "flexDirection": "row",
+            "paddingTop": 2,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#5B6068",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Label
+          <Required />
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Component
+          style={
+            Array [
+              Object {
+                "borderRadius": 8,
+                "borderWidth": 2,
+                "height": 30,
+                "marginRight": 10,
+                "width": 50,
+              },
+              Object {
+                "backgroundColor": "#FF0000",
+                "borderColor": "#FF0000",
+                "marginTop": -4,
+              },
+            ]
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#3266ba",
+                "fontSize": 15,
+                "fontWeight": "bold",
+              },
+              Object {
+                "paddingRight": 10,
+                "paddingTop": 2,
+                "textAlign": "right",
+              },
+            ]
+          }
+        >
+          RED
+        </Text>
+      </Component>
+    </Component>
+    <Icon
+      allowFontScaling={false}
+      color="#5B6068"
+      name="angle-right"
+      size={22}
+      style={
+        Object {
+          "paddingRight": 5,
+        }
+      }
+    />
+  </Component>
+</TouchableHighlight>
+`;
+
+exports[`the accessory item it renders with multiple descriptions 1`] = `
+<TouchableHighlight
+  activeOpacity={0.85}
+  delayPressOut={100}
+  onPress={[Function]}
+  underlayColor="#EBEBEB"
+>
+  <Component
+    style={
+      Object {
+        "borderBottomWidth": 1,
+        "borderColor": "#EBEBEB",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 18,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "minHeight": 45,
+        }
+      }
+    >
+      <Component
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "flex": 1,
+            "flexDirection": "row",
+            "paddingTop": 2,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#5B6068",
+              "fontSize": 16,
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Label
+          <Required />
+        </Text>
+      </Component>
+      <Component
+        style={
+          Object {
+            "flex": 1,
+            "flexDirection": "row",
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#3266ba",
+                "fontSize": 15,
+                "fontWeight": "bold",
+              },
+              Object {
+                "paddingRight": 10,
+                "paddingTop": 2,
+                "textAlign": "right",
+              },
+            ]
+          }
+        >
+          Battery, Engine
+        </Text>
+      </Component>
+    </Component>
+    <Icon
+      allowFontScaling={false}
+      color="#5B6068"
+      name="angle-right"
+      size={22}
+      style={
+        Object {
+          "paddingRight": 5,
+        }
+      }
+    />
+  </Component>
+</TouchableHighlight>
+`;
+
+exports[`the buttons items it matches the snapshot 1`] = `
+<Component
+  style={
+    Object {
+      "borderBottomWidth": 1,
+      "borderColor": "#EBEBEB",
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "space-between",
+      "minHeight": 45,
+      "padding": 10,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "paddingTop": 3,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#5B6068",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    />
+    <Required />
+  </Component>
+  <Component
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingTop": 5,
+      }
+    }
+  >
+    <Styled(TouchableOpacity)
+      key="key10"
+      onPress={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "#005abb",
+          "borderWidth": 1.5,
+          "flex": 0.5,
+          "marginRight": 5,
+        }
+      }
+      underlayColor="white"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#005abb",
+            "fontSize": 15,
+            "padding": 5,
+            "textAlign": "center",
+          }
+        }
+      >
+        A
+      </Text>
+    </Styled(TouchableOpacity)>
+    <Styled(TouchableOpacity)
+      key="key11"
+      onPress={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#005abb",
+          "borderColor": "#005abb",
+          "flex": 0.5,
+          "marginRight": 5,
+        }
+      }
+      underlayColor="white"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 15,
+            "padding": 5,
+            "textAlign": "center",
+          }
+        }
+      >
+        B
+      </Text>
+    </Styled(TouchableOpacity)>
+    <Styled(TouchableOpacity)
+      key="key12"
+      onPress={[Function]}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "#005abb",
+          "borderWidth": 1.5,
+          "flex": 0.5,
+          "marginRight": 5,
+        }
+      }
+      underlayColor="white"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#005abb",
+            "fontSize": 15,
+            "padding": 5,
+            "textAlign": "center",
+          }
+        }
+      >
+        C
+      </Text>
+    </Styled(TouchableOpacity)>
+  </Component>
+</Component>
+`;
+
+exports[`the comments items matches the snapshot 1`] = `
+<Component
+  style={
+    Object {
+      "borderBottomWidth": 1,
+      "borderColor": "#F8F8F8",
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "space-between",
+      "minHeight": 45,
+      "padding": 10,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "paddingTop": 3,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#5B6068",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      label
+    </Text>
+    <Required />
+  </Component>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="sentences"
+    multiline={true}
+    onChangeText={[Function]}
+    placeholder="XXXXXX"
+    style={
+      Array [
+        Object {
+          "color": "#3266ba",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        },
+        Object {
+          "borderColor": "gray",
+          "borderWidth": 1,
+          "height": 100,
+          "padding": 10,
+          "top": 10,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</Component>
+`;
+
+exports[`the date item matches the snapshot 1`] = `
+<Component
+  style={
+    Object {
+      "borderBottomWidth": 1,
+      "borderColor": "#F8F8F8",
+      "flex": 1,
+      "flexDirection": "column",
+      "minHeight": 45,
+      "paddingLeft": 10,
+      "paddingRight": 8,
+      "paddingTop": 5,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "paddingBottom": 5,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#5B6068",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      label
+    </Text>
+  </Component>
+  <DatePicker
+    TouchableComponent={[Function]}
+    androidMode="default"
+    cancelBtnText="Cancel"
+    confirmBtnText="Confirm"
+    customStyles={
+      Object {
+        "btnTextCancel": Object {
+          "height": 20,
+        },
+        "btnTextConfirm": Object {
+          "color": "#3266ba",
+          "height": 20,
+        },
+        "dateInput": Object {
+          "borderColor": "gray",
+          "borderWidth": 1,
+          "height": 40,
+          "padding": 10,
+        },
+        "dateText": Object {
+          "color": "#3266ba",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        },
+      }
+    }
+    date="01/01/2018"
+    disabled={false}
+    duration={300}
+    format="MM/DD/YY"
+    height={259}
+    hideText={false}
+    iconSource={1}
+    modalOnResponderTerminationRequest={[Function]}
+    mode="date"
+    onDateChange={[Function]}
+    placeholder="MM/DD/YY"
+    showIcon={false}
+  />
+</Component>
+`;
+
+exports[`the image item matches the snapshot when no value is set 1`] = `
+<Component
+  style={
+    Object {
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "minHeight": 45,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#5B6068",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      label
+    </Text>
+    <Required />
+  </Component>
+  <Component>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Component
+        style={
+          Object {
+            "backgroundColor": "rgb(216, 216, 216)",
+            "height": 100,
+            "width": 150,
+          }
+        }
+      >
+        <Image
+          resizeMode="center"
+          source={1}
+          style={
+            Object {
+              "left": 30,
+              "top": 30,
+            }
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "fontWeight": "bold",
+              "textAlign": "center",
+              "top": 30,
+              "width": 150,
+            }
+          }
+        >
+          Tap to take picture
+        </Text>
+      </Component>
+    </TouchableOpacity>
+  </Component>
+</Component>
+`;
+
+exports[`the image item matches the snapshot when value is set 1`] = `
+<Component
+  style={
+    Object {
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "minHeight": 45,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#5B6068",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      label
+    </Text>
+    <Required />
+  </Component>
+  <Component>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Component
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "height": 100,
+            "width": 150,
+          }
+        }
+      >
+        <Image
+          resizeMode="center"
+          source={
+            Object {
+              "uri": "path/to/image",
+            }
+          }
+          style={
+            Object {
+              "height": 100,
+              "width": 150,
+            }
+          }
+        />
+      </Component>
+    </TouchableOpacity>
+  </Component>
+</Component>
+`;
+
+exports[`the label item matches the snapshot 1`] = `
+<Component
+  style={
+    Object {
+      "flex": 1,
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "space-between",
+      "minHeight": 35,
+      "paddingLeft": 10,
+      "paddingRight": 8,
+      "paddingTop": 5,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#5B6068",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        },
+        Object {
+          "paddingTop": 3,
+        },
+      ]
+    }
+  >
+    Label
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#3266ba",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        },
+        Object {
+          "paddingTop": 3,
+        },
+      ]
+    }
+  >
+    value
+  </Text>
+</Component>
+`;
+
+exports[`the multiImage Item it matches the snapshot with no value 1`] = `
+<Component
+  style={
+    Object {
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 45,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "row",
+          "paddingTop": 3,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#5B6068",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        label
+      </Text>
+    </Component>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#5B6068"
+        name="camera"
+        size={22}
+        style={
+          Object {
+            "paddingRight": 5,
+          }
+        }
+      />
+    </TouchableOpacity>
+  </Component>
+  <FlatList
+    data={Array []}
+    disableVirtualization={false}
+    horizontal={true}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</Component>
+`;
+
+exports[`the multiImage Item it matches the snapshot with values 1`] = `
+<Component
+  style={
+    Object {
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 45,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "row",
+          "paddingTop": 3,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#5B6068",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        label
+      </Text>
+    </Component>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#5B6068"
+        name="camera"
+        size={22}
+        style={
+          Object {
+            "paddingRight": 5,
+          }
+        }
+      />
+    </TouchableOpacity>
+  </Component>
+  <FlatList
+    data={
+      Array [
+        Object {
+          "image": Object {
+            "pathName": "path/name.jpg",
+          },
+        },
+      ]
+    }
+    disableVirtualization={false}
+    horizontal={true}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
+  />
+</Component>
+`;
+
+exports[`the signature item it matches the snapshot with a value 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <Component
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "column",
+        "padding": 10,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "row",
+          "paddingTop": 3,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#5B6068",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        label
+      </Text>
+    </Component>
+    <Image
+      source={
+        Object {
+          "uri": "data:image/png;base64,00000000",
+        }
+      }
+      style={
+        Object {
+          "borderColor": "gray",
+          "borderWidth": 1,
+          "height": 80,
+          "resizeMode": "contain",
+        }
+      }
+    />
+  </Component>
+</TouchableOpacity>
+`;
+
+exports[`the signature item it matches the snapshot with no value 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+>
+  <Component
+    style={
+      Object {
+        "flex": 1,
+        "flexDirection": "column",
+        "padding": 10,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "row",
+          "paddingTop": 3,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#5B6068",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        label
+      </Text>
+    </Component>
+    <Component
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderColor": "gray",
+          "borderWidth": 1,
+          "flex": 1,
+          "flexDirection": "column",
+          "minHeight": 80,
+        }
+      }
+    />
+  </Component>
+</TouchableOpacity>
+`;
+
+exports[`the text item it matches the snapshot when isCurrency is false 1`] = `
+<Component
+  style={
+    Object {
+      "borderBottomWidth": 1,
+      "borderColor": "#EBEBEB",
+      "flex": 1,
+      "flexDirection": "column",
+      "minHeight": 45,
+      "paddingBottom": 5,
+      "paddingLeft": 10,
+      "paddingRight": 8,
+      "paddingTop": 5,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "paddingBottom": 5,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#5B6068",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      label
+    </Text>
+  </Component>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "borderColor": "gray",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 40,
+        "paddingHorizontal": 10,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="none"
+      keyboardType="default"
+      onChangeText={[Function]}
+      placeholder="XXXXXX"
+      style={
+        Array [
+          Object {
+            "color": "#3266ba",
+            "fontSize": 15,
+            "fontWeight": "bold",
+          },
+          Object {
+            "flex": 1,
+            "height": 40,
+            "padding": 0,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </Component>
+</Component>
+`;
+
+exports[`the text item it matches the snapshot when isCurrency is true 1`] = `
+<Component
+  style={
+    Object {
+      "borderBottomWidth": 1,
+      "borderColor": "#EBEBEB",
+      "flex": 1,
+      "flexDirection": "column",
+      "minHeight": 45,
+      "paddingBottom": 5,
+      "paddingLeft": 10,
+      "paddingRight": 8,
+      "paddingTop": 5,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flex": 1,
+        "flexDirection": "row",
+        "paddingBottom": 5,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#5B6068",
+          "fontSize": 16,
+          "fontWeight": "bold",
+        }
+      }
+    >
+      label
+    </Text>
+  </Component>
+  <Component
+    style={
+      Object {
+        "alignItems": "center",
+        "borderColor": "gray",
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "height": 40,
+        "paddingHorizontal": 10,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#3266ba",
+            "fontSize": 15,
+            "fontWeight": "bold",
+          },
+        ]
+      }
+    >
+      $
+    </Text>
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="none"
+      keyboardType="default"
+      onChangeText={[Function]}
+      placeholder="0.00"
+      style={
+        Array [
+          Object {
+            "color": "#3266ba",
+            "fontSize": 15,
+            "fontWeight": "bold",
+          },
+          Object {
+            "flex": 1,
+            "height": 40,
+            "padding": 0,
+          },
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </Component>
+</Component>
+`;
+
+exports[`the vin item it matches the snapshot 1`] = `
+<Component
+  style={
+    Object {
+      "borderBottomWidth": 1,
+      "borderColor": "#F8F8F8",
+      "flex": 1,
+      "flexDirection": "column",
+      "minHeight": 45,
+      "padding": 10,
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "minHeight": 45,
+      }
+    }
+  >
+    <Component
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "flex": 1,
+          "flexDirection": "row",
+          "padding": 5,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#5B6068",
+            "fontSize": 16,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        label
+      </Text>
+    </Component>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[Function]}
+    >
+      <Icon
+        allowFontScaling={false}
+        color="#5B6068"
+        name="barcode"
+        size={22}
+        style={
+          Object {
+            "paddingRight": 5,
+          }
+        }
+      />
+    </TouchableOpacity>
+  </Component>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="characters"
+    onChangeText={[Function]}
+    placeholder="XXXXXX"
+    style={
+      Array [
+        Object {
+          "color": "#3266ba",
+          "fontSize": 15,
+          "fontWeight": "bold",
+        },
+        Object {
+          "borderColor": "gray",
+          "borderWidth": 1,
+          "height": 40,
+          "padding": 10,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</Component>
+`;

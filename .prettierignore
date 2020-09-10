@@ -1,0 +1,16 @@
+# For any file ending with .style/.styles
+/app/**/*.styles
+/app/**/*.style
+
+# For any file ending with .style.js/.styles.js
+/app/**/*.style.js
+/app/**/*.styles.js
+
+# For any file 'named' styles.js/style.js
+/app/**/styles.js
+/app/**/style.js
+
+# Specific file under app/styles directory
+/app/styles/index.js
+
+node_modules/
